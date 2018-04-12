@@ -67,7 +67,7 @@ html {
 .btn-banner:hover,
 .btn-banner:focus {
   background-color: #bea59b;
-  border-color: #fff;
+  border-color: #bea59b;
   color: #522806;
 }
 
