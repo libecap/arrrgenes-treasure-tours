@@ -27,6 +27,17 @@ html {
   text-decoration: none;
 }
 
+a:focus {
+  outline: 6px solid #ff69b4;
+}
+
+#nav:focus,
+#main:focus,
+#tour:focus,
+#specs:focus {
+  outline: 6px solid #ff69b4;
+}
+
 .nav a span {
   border-bottom: .3rem solid #bea59b;
 }
@@ -36,9 +47,15 @@ html {
   border-bottom-color: #fff;
 }
 
+.nav a:hover,
+.nav a:focus {
+  color: #bea59b;
+}
+
 .banner {
   min-height: 16em;
   color: #fff;
+  background-color: #2e2e2e;
 }
 
 .card {
@@ -49,7 +66,7 @@ html {
 
 .btn-light {
   background-color: #bea59b;
-  border-color: #522806;
+  border-color: #bea59b;
   color: #522806;
 }
 
@@ -69,7 +86,7 @@ html {
 .btn-banner:focus {
   background-color: #bea59b;
   border-color: #bea59b;
-  color: #fff;
+  color: #522806;
 }
 
 .footer {
